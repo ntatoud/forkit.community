@@ -17,6 +17,6 @@ export const GET: APIRoute = async function get(context) {
       pubDate: event.data.date,
       categories: [event.data.type],
     })),
-    customData: `<language>en-EN</language>`,
+    customData: `<language>en</language>`,
   });
 };
